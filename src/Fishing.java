@@ -17,10 +17,10 @@ public class Fishing {
     }
 
     private void setupBoard(String level) {
-        Treasure t1 = new Treasure("\uD83C\uDF0A");
-        Treasure t2 = new Treasure("\uD83C\uDF0A");
-        Treasure t3 = new Treasure("\uD83C\uDF0A");
-        Treasure t4 = new Treasure("\uD83C\uDF0A");
+        Treasure t1 = new Treasure("\uD83D\uDC1F");
+        Treasure t2 = new Treasure("\uD83D\uDC1F");
+        Treasure t3 = new Treasure("\uD83D\uDC1F");
+        Treasure t4 = new Treasure("\uD83D\uDC1F");
         Treasure[] treasureList = {t1, t2, t3, t4};
 
         if (level.equals("E") || level.equals("e")) {
